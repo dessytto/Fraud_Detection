@@ -1,0 +1,7 @@
+This project is based on the following data:
+https://www.kaggle.com/mlg-ulb/creditcardfraud
+
+The data are strongly imbalanced.
+I tried different strategies for handling imbalanced data, and several different classifiers.
+My goal was to minimize the number of false negatives, so my metrics of choice is the recall.
+Accuracy wouldn't be a good measure because the minority class is approx. 0.2% of the data.
